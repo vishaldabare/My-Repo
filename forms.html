@@ -1,0 +1,62 @@
+<html>
+
+<body bgcolor="lightgreen">
+
+<form name="registration" action="check" method="post">
+<fieldset>
+<legend>User Details</legend>
+
+<label for="firstname">First Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+<input type="text" id="firstname" name="firstname" value="Vishal" readonly autofocus disabled ></input>
+<br><br>
+<label for="lastname">Enter Last Name &nbsp; &nbsp; &nbsp;</label>
+<input type="text" id="lastname" name="lastname" placeholder="last name" required></input>
+<br><br>
+<label for="email">Enter E-Mail ID  &nbsp; &nbsp; &nbsp;</label>
+<input type="email" id="email" name="email" placeholder="email" required>
+ <br><br>
+ <label for="number">Enter Mobile No. &nbsp; &nbsp;  </label>
+<input type="tel" id="number" name="number" placeholder="number" required maxlength="10">
+<br><br>
+<label for="photo">Upload Your Phote &nbsp;</label>
+<input type="file" id="photo" name="photo" placeholder="photo" required>
+ <br><br>
+<label for="date">Enter Date of Birth &nbsp; </label>
+<input type="date" id="date" name="date" placeholder="date" required>
+<br><br>
+<label for="password">Enter Password &nbsp; &nbsp; &nbsp; </label>
+<input type="password" id="password" name="password" placeholder="password" required></input>
+<br><br>
+<label>Select Course: </label>
+JAVA
+<input type="checkbox" name="course" value="J">
+PHP
+<input type="checkbox" name="course" value="php">
+<br><br>
+Select Course:
+PYTHON
+<input type="radio" name="coursenm" value="py">
+SELENIUM
+<input type="radio" name="coursenm" value="se">
+<br><br>
+<label>Enter Address &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<textarea placeholder="addrerss" name="add"></textarea> 
+<br><br>
+<label>Course Details &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<select>
+    <option value="j">JAVA</option>
+    <option value="j">PHP</option>
+    <option value="j">PYTHON</option>
+    <option value="j">SELENIUM</option>
+</select>
+<br><br>
+<label>Submit Details &nbsp;</label>
+<input type="submit" value="login">
+<br><br>
+<input type="button" value="check in">
+<input type="reset" value="reset">
+
+</fieldset>
+</form>
+</body>
+</html>
